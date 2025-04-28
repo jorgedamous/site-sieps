@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIEPS - Educação de Qualidade</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4b0082; /* Roxo */
+            color: #ffd700; /* Amarelo */
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #ffd700; /* Amarelo */
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #4b0082; /* Roxo */
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-color: #ffd700; /* Amarelo */
+            color: #4b0082; /* Roxo */
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin: 10px 0 20px;
+        }
+        .cta-button {
+            background-color: #4b0082; /* Roxo */
+            color: #ffd700; /* Amarelo */
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .cta-button:hover {
+            background-color: #371061;
+        }
+        .login-section, .location-section, .polo-section {
+            background-color: #f9f9f9;
+            color: #4b0082; /* Roxo */
+            text-align: center;
+            padding: 30px 20px;
+        }
+        .login-section h2, .location-section h2, .polo-section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .location-section p, .polo-section p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #4b0082; /* Roxo */
+            color: #ffd700; /* Amarelo */
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à SIEPS</h1>
+        <p>Educação de qualidade para transformar o futuro</p>
+    </header>
+    <nav>
+        <a href="#sobre-nos">Sobre Nós</a>
+        <a href="#colaboradores">Colaboradores</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#localizacao">Localização</a>
+        <a href="#polos">Polos</a>
+    </nav>
+    <section class="hero">
+        <h1>Junte-se à nossa comunidade</h1>
+        <p>Oferecemos cursos de alta qualidade para todas as idades.</p>
+        <a href="#matriculas" class="cta-button">Saiba Mais</a>
+    </section>
+    <section class="login-section" id="login">
+        <h2>Login</h2>
+        <form>
+            <input type="email" placeholder="Digite seu e-mail" required>
+            <input type="password" placeholder="Digite sua senha" required>
+            <button type="submit">Entrar</button>
+        </form>
+    </section>
+    <section class="location-section" id="localizacao">
+        <h2>Localização</h2>
+        <p>Endereço: Rua Exemplo, 123 - Centro, Cidade Exemplo, Estado</p>
+        <p>Telefone: (11) 1234-5678</p>
+    </section>
+    <section class="polo-section" id="polos">
+        <h2>Polos</h2>
+        <p><strong>MATRIZ:</strong> Rua Principal, 456 - Centro</p>
+        <p><strong>BABY:</strong> Rua Secundária, 789 - Bairro</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 SIEPS. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
